@@ -1,0 +1,11 @@
+// Task 1. Simple Temperature Converter
+
+//   Store a temperature in Celsius. Convert it to Fahrenheit using:
+//   F = (C × 9 / 5) + 32
+//   Print both Celsius and Fahrenheit values.
+
+let celsius = 10;
+
+let fahrenheit = (celsius * 9 / 5) + 32;
+
+console.log(`${celsius}°C is equals to ${fahrenheit}°F`);
