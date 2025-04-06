@@ -12,16 +12,16 @@
 
 // "Too low!" if guess < secret.
 
-  let secret = Math.floor(Math.random() * 10) + 1;
+let secret = 9;
 
-  let guess = 7;
+let guess = Math.floor(Math.random() * 10) + 1; 
 
-  if (guess === secret) {
-    console.log("Correct!");
-  } else if (guess > secret) {
-    console.log("Too High!");
-  } else {
-    console.log("Too Low");
-  }
+if (guess === secret) {
+  console.log("Correct!")
+} else if (guess > secret) {
+  console.log("Too high!")
+} else {
+  console.log("Too low!")
+}
 
-  console.log(secret);
+console.log(`Guessed Number: ${guess}`);

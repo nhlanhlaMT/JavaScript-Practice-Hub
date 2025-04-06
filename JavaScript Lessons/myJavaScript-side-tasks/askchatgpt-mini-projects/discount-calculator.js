@@ -8,15 +8,15 @@
 
 // Print the final price
 
-let price = 200;
+let price = 51;
 
 let discount1 = 0.1;
 let discount2 = 0.05;
 
 if (price > 100) {
-  console.log("Final Price: ", price - (price * discount1));
+  console.log("Final Price: ", price - (price * discount1))
 } else if (price > 50) {
-  console.log("Final Price: ", price - (price * discount2));
+  console.log("Final Price: ", price - (price * discount2))
 } else {
-  console.log("No Discount applied. Final price: ", price);
+  console.log("No discount! Final Price: ", price)
 }

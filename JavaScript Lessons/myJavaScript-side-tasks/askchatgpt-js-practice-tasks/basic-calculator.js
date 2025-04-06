@@ -5,7 +5,6 @@
 // Use if-statements to determine the operation and print the result.
 
 
-
 let num1 = 20;
 let num2 = 5;
 
@@ -22,7 +21,7 @@ if (operator === "+") {
 } else if (operator === "/") {
   result = num1 / num2;
 } else {
-  result = "Invalid operator!";
+  result = "Invalid operator";
 }
 
-console.log("Result: ", result);
+console.log(`Result: ${result}`);

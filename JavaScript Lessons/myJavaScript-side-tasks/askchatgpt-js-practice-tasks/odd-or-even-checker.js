@@ -4,7 +4,7 @@
   
 //   Print "{number} is even" or "{number} is odd".
 
-let number = 2;
+let number = 9;
 
 if (number % 2 === 0) {
   console.log(`${number} is even`);

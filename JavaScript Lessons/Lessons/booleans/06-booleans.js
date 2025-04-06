@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Booleans</title>
-</head>
+// Booleans are another type of value,
+// there are only two boolean values:
+// true and false. Purpose of boolean value is to represent whether something is true or false.
 
-
-
-
-<body>
-
-  <!-- Booleans are another type of value,
-        there are only two boolean values:
-        true and false. Purpose of boolean value is to represent whether something is true or false.-->
-
-
-  
-</body>
-
-<script>
-
-  // console.log(typeof true);
+// console.log(typeof true);
   // false
 
   // console.log(3 > 5 - 5);
@@ -56,9 +37,3 @@
     console.log('truthy');
 
   }
-
-
-</script>
-
-</html>
-

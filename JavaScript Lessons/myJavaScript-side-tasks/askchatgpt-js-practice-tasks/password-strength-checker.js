@@ -4,7 +4,7 @@
   
 //   If it contains fewer than 8 characters, print "Weak password", else "Strong password".
 
-let password = "MyPass111";
+let password = "MyPass1";
 
 if (password.length < 8) {
   console.log("Weak Password");

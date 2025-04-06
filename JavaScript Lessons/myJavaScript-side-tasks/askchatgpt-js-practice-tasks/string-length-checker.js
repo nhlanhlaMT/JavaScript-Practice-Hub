@@ -4,10 +4,10 @@
   
 //   If the string has more than 10 characters, print "Too long!", otherwise "Looks good!".
 
-let name = "Nhlanhla";
+let name = "Nhlanhla"
 
 if (name.length > 10) {
-  console.log("Too Long!");
+  console.log("Too long!");
 } else {
   console.log("Looks good!");
 }

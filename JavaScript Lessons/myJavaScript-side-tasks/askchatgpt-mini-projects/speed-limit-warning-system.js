@@ -8,12 +8,13 @@
 
 // If it's below 80, print "Speed up a little!".
 
-let speed = 90;
+let speed = 79;
 
 if (speed > 120) {
-  console.log("Too fast! Slow down !");
-} else if (speed >= 80) {
-  console.log("You are driving safely.")
+  console.log("Too fast! Slow down!");
+} else if (speed > 80) {
+  console.log("You are driving safely");
 } else {
-  console.log("Speed up a little!");
+  console.log("Speed up a little!")
 }
+
