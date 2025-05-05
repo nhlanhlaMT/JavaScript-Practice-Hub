@@ -6,7 +6,7 @@
 
 // Print "Valid username" or "Invalid username". 
 
-let username = "Nhle";
+let username = "Dr.Fuman";
 
 if (username[0] === username[0].toUpperCase() && username.length > 5) {
   console.log("Valid username");
