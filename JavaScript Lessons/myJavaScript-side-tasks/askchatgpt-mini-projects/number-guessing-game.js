@@ -12,16 +12,23 @@
 
 // "Too low!" if guess < secret.
 
-let secret = 4;
+// let secretNumber = Math.floor(Math.random() * 10) + 1;
 
-let guess = Math.floor(Math.random() * 10) + 1;
+// let guess = 3;
 
-if (guess === secret) {
-  console.log("Correct!");
-} else if (guess > secret) {
-  console.log("Too high!");
-} else if (guess < secret) {
-  console.log("Too low!");
-}
+// if (guess === secretNumber) {
+//   console.log(`Secret No: ${secretNumber}, Your guess: ${guess} = Correct!`);
+// } else if (guess > secretNumber) {
+//   console.log(`Secret No: ${secretNumber}, Your guess: ${guess} = Too high!`);
+// } else if (guess < secretNumber) {
+//   console.log(`Secret No: ${secretNumber}, Your guess: ${guess} = Too low!`);
+// }
 
-console.log(`Secret No: ${secret}, Your Guess: ${guess}`);
+let secretNumber = Math.floor(Math.random() * 10) + 1;
+
+let guess = 6;
+
+console.log(guess === secretNumber ? `Secret No: ${secretNumber}, Your guess: ${guess} = Correct!` :
+            guess > secretNumber ? `Secret No: ${secretNumber}, Your guess: ${guess} = Too high!` :
+            `Secret No: ${secretNumber}, Your guess: ${guess} = Too low!`
+);

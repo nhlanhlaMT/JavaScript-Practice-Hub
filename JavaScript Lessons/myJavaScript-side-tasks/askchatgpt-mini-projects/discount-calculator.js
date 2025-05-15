@@ -8,16 +8,25 @@
 
 // Print the final price
 
-let price = 200;
+// let price = 51;
+
+// let discount1 = 0.1;
+// let discount2 = 0.05;
+
+// if (price > 100) {
+//   console.log("10% DISCOUNT! Final price: ", price - (price * discount1));
+// } else if (price > 50) {
+//   console.log("5% DISCOUNT! Final price: ", price - (price * discount2));
+// } else {
+//   console.log(`No DISCOUNT! Final price: ${price}`);
+// }
+
+let price = 120;
 
 let discount1 = 0.1;
 let discount2 = 0.05;
-
-if (price > 100) {
-  console.log("Final Price: ", price - (price * discount1));
-} else if (price > 50) {
-  console.log("Final Price: ", price - (price * discount2));
-} else {
-  console.log("No Discount! Final Price: ", price);
-}
-
+ 
+console.log(price > 100 ? price - (price * discount1) :
+            price > 50 ?  price - (price * discount2) :
+            `No DISCOUNT! Final price: ${price}`
+);

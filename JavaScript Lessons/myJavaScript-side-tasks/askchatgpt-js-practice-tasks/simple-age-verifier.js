@@ -4,10 +4,14 @@
 
 // Display "You can vote!" or "You are too young to vote." 
 
-let age = 18;
+// let age = 18;
 
-if (age >= 18) {
-  console.log("You can vote!");
-} else {
-  console.log("You are too young to vote.");
-}
+// if (age >= 18) {
+//   console.log("You can vote!");
+// } else {
+//   console.log("You are too young to vote");
+// }
+
+let age = 17;
+
+console.log(age >= 18 ? 'You can vote!' : 'You are too young vote.');
