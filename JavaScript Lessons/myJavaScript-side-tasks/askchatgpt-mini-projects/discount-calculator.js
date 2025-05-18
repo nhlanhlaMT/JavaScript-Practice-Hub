@@ -25,8 +25,8 @@ let price = 120;
 
 let discount1 = 0.1;
 let discount2 = 0.05;
- 
-console.log(price > 100 ? price - (price * discount1) :
-            price > 50 ?  price - (price * discount2) :
+
+console.log(price > 100 ? price - (price * 0.1) :
+            price > 50 ? price - (price * 0.05) :
             `No DISCOUNT! Final price: ${price}`
 );

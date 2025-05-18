@@ -5,3 +5,16 @@
 //   - convertLength(32, 'km', 'miles') => '20 miles'
 //   - convertLength(50, 'km', 'km') => '50 km'
 
+function convertLength(length, from, to) {
+  if (from === 'miles' && to == 'km') {
+    return `${length * 1.6} km`;
+  } else if (from === 'km' && to === 'miles') {
+    return `${length / 1.6} miles`;
+  } else if (from === to) { 
+    return `${length} ${to}`;
+  }
+}
+
+console.log(convertLength(50, 'miles', 'km'));
+console.log(convertLength(32, 'km', 'miles'));
+console.log(convertLength(50, 'km', 'km'));
